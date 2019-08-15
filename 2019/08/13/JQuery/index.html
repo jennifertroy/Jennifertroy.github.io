@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.9.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="JQueryeach遍历12345678910111213141516171819**写法一：****$(selector).each(function(index,ele)&amp;#123;**		**//index索引值**		**//元素****&amp;#125;);** $(&amp;quot;P&amp;quot;)">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="John Doe">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="JQuery">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="JQueryeach遍历12345678910111213141516171819**写法一：****$(selector).each(function(index,ele)&amp;#123;**		**//index索引值**		**//元素****&amp;#125;);** $(&amp;quot;P&amp;quot;)">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="雷丽娇">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+
+    
+        <meta name="twitter:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>JQuery - 雷丽娇</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Configurable Title</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>JQuery</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2019-08-13
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="JQuery"><a href="#JQuery" class="headerlink" title="JQuery"></a>JQuery</h1><h3 id="each遍历"><a href="#each遍历" class="headerlink" title="each遍历"></a>each遍历</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">**写法一：**</span><br><span class="line">**$(selector).each(function(index,ele)&#123;**</span><br><span class="line">		**//index索引值**</span><br><span class="line">		**//元素**</span><br><span class="line">**&#125;);**</span><br><span class="line"> $(&quot;P&quot;).each(function (index,ele) &#123;</span><br><span class="line">        console.log(arguments);  //输出参数</span><br><span class="line">        console.log(index);    //输出索引值</span><br><span class="line">        console.log(ele);    //输出每个元素</span><br><span class="line">        console.log(index);    //输出jquery对象</span><br><span class="line">    &#125;)</span><br><span class="line"></span><br><span class="line">**写法二：**</span><br><span class="line">**$.each(arr/obj,function(index,ele)&#123;**</span><br><span class="line">	**//程序处理**</span><br><span class="line">**&#125;);**</span><br><span class="line">  $.each(arr ,function (index,ele) &#123;</span><br><span class="line">        console.log(ele.name);</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="on-事件委托"><a href="#on-事件委托" class="headerlink" title="on 事件委托"></a>on 事件委托</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">动态添加的节点，不支持直接绑定事件，可以通过委托默认就存在网页文档中的标签为动态添加的标签绑定事件。</span><br><span class="line"></span><br><span class="line">**格式：**</span><br><span class="line"></span><br><span class="line">**$(&quot;body&quot;).on(type,ele,fuction()&#123;**</span><br><span class="line">	**//事件处理程序**</span><br><span class="line"></span><br><span class="line">**&#125;)**</span><br><span class="line">type:事件类型 </span><br><span class="line">ele:绑定事件的元素</span><br><span class="line">fn:事件触发的函数</span><br><span class="line"></span><br><span class="line">被委托的元素必须是委托元素的父级</span><br><span class="line">被委托的元素必须默认就在网页当中</span><br></pre></td></tr></table></figure>
+
+<h3 id="map方法"><a href="#map方法" class="headerlink" title="map方法"></a>map方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//把段落里面的文组存在一个数组里面</span><br><span class="line">var arr = $(&quot;p&quot;).map(function (index,ele) &#123;</span><br><span class="line">    return $(ele).text();</span><br><span class="line">&#125;);</span><br><span class="line">console.log(arr.get());</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建-增加节点"><a href="#创建-增加节点" class="headerlink" title="创建 增加节点"></a>创建 增加节点</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;button&quot;).click(function () &#123;</span><br><span class="line">       //创建节点</span><br><span class="line">       var newtag= $(&quot;&lt;li&gt;我是新来的&lt;/li&gt;&quot;);</span><br><span class="line">       //选中元素，在该元素内部的后面追加节点</span><br><span class="line">       //$(&quot;ul&quot;).append(newtag);</span><br><span class="line">       //选中元素，在该元素内部的前面追加节点</span><br><span class="line">       //$(&quot;ul&quot;).prepend(newtag);</span><br><span class="line">       //把选中的节点增加到指定元素内部的后面</span><br><span class="line">       //newtag.appendTo($(&quot;ul&quot;));</span><br><span class="line">       //把选中的节点增加到指定元素内部的前面</span><br><span class="line">       //newtag.prependTo($(&quot;ul&quot;));</span><br><span class="line">       //在选定元素后面增加,加同级</span><br><span class="line">       //$(&quot;ul&quot;).after(newtag);</span><br><span class="line">       //在选定元素前面增加,加同级</span><br><span class="line">       //$(&quot;ul&quot;).before(newtag);</span><br><span class="line">       //把节点放在指定元素的前面</span><br><span class="line">       //newtag.insertBefore($(&quot;ul&quot;));</span><br><span class="line">       //把节点放在指定元素的后面</span><br><span class="line">       newtag.insertAfter($(&quot;ul&quot;));</span><br><span class="line">   &#125;);</span><br></pre></td></tr></table></figure>
+
+<h3 id="删除-节点"><a href="#删除-节点" class="headerlink" title="删除  节点"></a>删除  节点</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"> var lis = $(&quot;li&quot;);</span><br><span class="line">    lis.click(function () &#123;</span><br><span class="line">        console.log(&apos;点击事件&apos;);</span><br><span class="line">    &#125;);</span><br><span class="line">    $(&quot;button&quot;).eq(0).click(function () &#123;</span><br><span class="line">        $(&quot;li&quot;).remove();//删除</span><br><span class="line">        //$(&quot;li&quot;).empty();  //删除清空内容</span><br><span class="line">        //$(&quot;li&quot;).detach();//删除分离不会删除绑定事件</span><br><span class="line"></span><br><span class="line">    &#125;);</span><br><span class="line">    $(&quot;button&quot;).eq(1).click(function () &#123;</span><br><span class="line">        $(&quot;ul&quot;).append(lis); //增加</span><br><span class="line">    &#125;)</span><br><span class="line">    jQuery框架中定义了3个删除内容的方法：它们分别是     remove（）、empty（）和detach（）。</span><br><span class="line">    </span><br><span class="line">remove方法 能够将匹配的元素从DOM中删除。</span><br><span class="line"></span><br><span class="line">empty方法 用来清空元素包含的内容，该方法没有参数。</span><br><span class="line"></span><br><span class="line">detach方法 能够将匹配的元素从DOM中分离出来。</span><br></pre></td></tr></table></figure>
+
+<h3 id="复制克隆"><a href="#复制克隆" class="headerlink" title="复制克隆"></a>复制克隆</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;button&quot;).click(function () &#123;</span><br><span class="line">      var li = $(&quot;ul li:last&quot;).clone(true);               //clone(true)克隆默认为true</span><br><span class="line">      $(&quot;ul&quot;).append(li);</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="替换节点"><a href="#替换节点" class="headerlink" title="替换节点"></a>替换节点</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var ps = $(&quot;&lt;p&gt;p&lt;/p&gt;&quot;);</span><br><span class="line">    //$(&quot;div&quot;).replaceWith(ps);//将div替换成p</span><br><span class="line">   ps.replaceAll(&quot;div&quot;);  //替换</span><br></pre></td></tr></table></figure>
+
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2019 John Doe<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
